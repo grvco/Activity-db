@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+html,body{
+    margin: 0!important;
+}
+.main{
+    display: grid;
+    grid-template-rows: 150px 1fr 150px;
+    gap: 30px;
+    width: 100vw;
+    height: 100vh;
+    padding: 100px;
+    background-image: url(img/background.jpg);
+    background-color: #f6f6db;
+    background-position: center;
+    background-size: cover;
+}
+.content-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.index-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.inputs{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.header-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.base-header-container{
+    display: grid;
+    grid-template-columns: 100px 1fr 100px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.before-buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.after-buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
